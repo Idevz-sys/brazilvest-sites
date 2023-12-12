@@ -1,0 +1,36 @@
+.single-team-wrap{
+  .team-img{
+    top: -23%;
+    left: 10%;
+  }
+}
+.team-content-wrap{
+  margin: 3rem 0;
+}
+.name-designation{
+  span{
+    font-size: 14px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1199px){
+  .single-team-wrap{
+    .team-img{
+      top: -2px;
+      left: 0;
+    }
+  }
+  .team-content-wrap{
+    margin: 1rem 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px){
+  .single-team-wrap{
+    .team-img{
+      top: 5%;
+      left: 15%;
+    }
+  }
+  .team-content-wrap{
+    margin: .8rem 0;
+  }
+}

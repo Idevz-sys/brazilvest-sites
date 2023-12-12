@@ -1,0 +1,27 @@
+.single-team-wrap .team-img{
+  top: -12%;
+  right: 10%;
+}
+
+@media (min-width: 990px) and (max-width: 1199px){
+  .single-team-wrap{
+    .team-img{
+      top: 28px;
+      left: 0;
+    }
+  }
+  .team-content-wrap{
+    margin: 1rem 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px){
+  .single-team-wrap{
+    .team-img{
+      top: 5%;
+      left: 15%;
+    }
+  }
+  .team-content-wrap{
+    margin: .8rem 0;
+  }
+}

@@ -1,0 +1,81 @@
+@media (min-width: 1300px) and (max-width: 1920px){
+  .img-custom-width{
+    min-width: 600px;
+  }
+}
+
+.big-text{
+  position: relative;
+  span{
+    position: absolute;
+    font-size: 16px;
+    top: -65px;
+  }
+  font-size: 100px;
+  line-height: 125px;
+  font-weight: $font-weight-bold;
+  @media (min-width: 320px) and (max-width: 767px){
+    span{
+      top: -35px;
+    }
+    font-size: 60px;
+    line-height: 80px;
+  }
+}
+.offer-content-wrap{
+  h3{
+    span{
+      color: $offer-badge-color;
+    }
+  }
+}
+
+.offer-tag-wrap img{
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.offer-badge{
+  position: absolute;
+  top: -1%;
+  right: 18%;
+  background: $offer-badge-color;
+  border-radius: 130px 50px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.30);
+}
+.offer-content{
+  width: 195px;
+  height: 195px;
+  text-align: center;
+  position: relative;
+  background: $color-ui-01;
+  border-radius: 100%;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.30);
+}
+.offer-content .offer-text{
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  font-family: $headings-font-family
+}
+.offer-text span{
+  display: block;
+  color: $offer-badge-color;
+  font-size: 75px;
+  line-height: 80px;
+  font-weight: 700;
+
+}
+.offer-text small{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.fancy-radius-1{
+  border-radius:63% 37% 30% 70% / 50% 45% 55% 50%;
+}
+.fancy-radius-2{
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
