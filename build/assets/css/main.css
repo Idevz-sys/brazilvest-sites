@@ -433,6 +433,19 @@ select {
   text-transform: none;
 }
 
+#Plan{
+  background-color: #7917c4;
+  color: white;
+  padding: -31px;
+  border-radius: 20px;
+  padding-left: inherit;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding-top: 15px;
+  box-shadow: 3px 2px 4px #8d15ef;
+
+}
+
 /* line 339, node_modules/bootstrap/scss/_reboot.scss */
 [role="button"] {
   cursor: pointer;
